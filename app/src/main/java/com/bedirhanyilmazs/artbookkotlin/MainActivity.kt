@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         // inflater  -> xml ile kodları birbirine bağlanmada her seferinde bu kullanılır
         val menuInflater = menuInflater // menu.xml dosyasını kotline çevirmek
-        menuInflater.inflate(R.menu.art_menu,menu)
+        menuInflater.inflate(R.menu.art_menu,menu) // menu.xml deki öğeleri çalıştırır ve görünür hale getirir
 
         return super.onCreateOptionsMenu(menu)
     }
