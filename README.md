@@ -20,7 +20,15 @@
     onOptionsItemSelected -> Menüye tıklayınca ne yapacağımız yapcaz
 
 
-2-) 
+2-) AndroidManifest.xml e gelip
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    ekleyeceğiz
+
+3-) ArtActivity.kt yi açıp
+    selecImage fun'a izin verilip verilmediği fonksiyonlarını yazmak
+
+    
+    
 
 
 
